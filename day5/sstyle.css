@@ -1,0 +1,93 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.parent {
+    height: 100vh;
+    background-color: black;
+}
+.box1 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+
+}
+.box2 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+    
+
+}
+.box3 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+
+}
+.box4 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 3%;
+    top: 3%;
+}
+.box1:hover {
+    transition: rotate(180deg);
+    transition-duration: 3s;
+}
+.parent2 {
+    height: 100vh;
+}
+.circle {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    position: fixed;
+    top: 40%;
+    left: 45%;
+    background-color: aquamarine;
+}
+.circle2 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%  ;
+}
+@media (max-width: 1000px) {
+    .parent div {
+        height: 200px;
+        width: 200px;
+        background-image: url(pexels-souvenirpixels-1542495.jpg);
+        background-size: cover;
+        
+    }
+}
+@media (max-width: 700px) {
+    .parent div {
+        height: 200px;
+        width: 200px;
+        background-image: url(night-city-3840-2160-v0-lnprj1am754d1.webp);
+        background-size: cover;
+        
+    }
+}
+@media (max-width: 500px) {
+    .parent div {
+        height: 200px;
+        width: 200px;
+        background-image: url(pexels-pixabay-270756.jpg);
+        background-size: cover;
+        
+    }
+}
+
+
+
+
+
