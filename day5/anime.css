@@ -1,0 +1,25 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+p {
+    font-size: 27px;
+    text-align: center;
+    padding: 43px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parent {
+    height: 100vh;
+    background-color: black;
+}
+.childone {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+.childone:hover {
+    transform: translate(1000px, 1000px) rotate(100deg) skew(103deg);
+    transition-duration: 2s;
+}
