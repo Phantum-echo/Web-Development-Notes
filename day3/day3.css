@@ -1,0 +1,24 @@
+.Product_one {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(152, 220, 44);
+    border-radius: 50% 0;
+    border: 2px solid black;
+    
+}
+p {
+    background-color: black;
+    color: aquamarine;
+    font-size: 27px;
+    border: 2px solid black;
+    padding: 15px 40px;
+    border-radius: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic ;
+    font-weight: 800;
+}
+marquee {
+    width: 100px;
+    height: 100px;
+    color: crimson;
+}

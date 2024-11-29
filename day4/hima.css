@@ -1,0 +1,80 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.parent {
+    display: flex;
+    height: 100vh;
+    /* background-color: rgb(7, 24, 141); */
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    height: 400px;
+    width: 63%;
+    background-color: rgb(0, 0, 0);
+}
+.box2 {
+    height: 400px;
+    width: 37%;
+    background-image: url(pexels-pixabay-270756.jpg);
+    background-size: cover;
+
+}
+h2 {
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: "Protest Revolution", sans-serif;
+    font-style: italic;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    color: red;
+}
+p {
+    padding: 0px 60px 0px 60px;
+    font-family: "Lacquer", system-ui;
+   position: relative;
+   top: 13%;
+   font-size: 19px;
+   color: aquamarine;
+}
+ul {
+    display: flex;
+    text-decoration: none;
+    justify-content: end;
+    gap: 20px;
+    background-image: url(pexels-eberhardgross-858115.jpg);
+    background-size: cover;
+    background-position-y: -760px;
+    width: 100vw;
+    height: 50px;
+    
+
+}
+li {
+ list-style-type: none;
+
+
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "Protest Revolution", sans-serif;
+    padding: 3px;
+    position: relative;
+    top: 13px;
+}
+li:hover {
+    background-color: rgba(0, 0, 0, 0.819);
+    
+}
+a:hover {
+    color: red;
+}
+.logo {
+    position: relative;
+    left: -920px;
+    
+
+
+}
