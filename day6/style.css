@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+.main {
+    height: 50vh;
+    width: 80vw;
+    border: 1px solid red;
+    
+
+}
+.box {
+    height: 10vh;
+    width: 75vw;
+    border: 1px solid aqua;
+    margin-top: 10px;
+    display: flex;
+    justify-content: first baseline;
+    
+}
+.box1 {
+    height: 6vh;
+    width: 10vw;
+    border: 1px solid aquamarine;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+/* .box2 {
+    height: 6vh;
+    width: 10vw;
+    border: 1px solid aquamarine;
+    margin-top: 13px;
+    margin-left: 13px;
+    
+} */

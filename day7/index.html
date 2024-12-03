@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="home">Hello Universe !!!</h1>
+    <center>
+        <div id="box">
+
+        </div>
+    </center>
+
+
+
+    <script>
+        // for(let i = 0; i <= 10; i++){
+        //     console.log(i)
+        // }
+
+        // let k = 0;
+        // while (k < 4) {
+        //     console.log(`This is while loop running ${k} times` )
+        //     document.write(`This is while loop running ${k} times`+ "<br>")
+        //     k++
+        // }
+
+        //  let k = 0;
+        //  do {
+        //     console.log(`Hello Universe ${k} times`)
+        //     k++
+        //  }while (k < 11)
+        
+        const changeName=()=>{
+            document.getElementById("home").style.color="red";
+        }
+        setTimeout(()=>{
+            changeName()
+            changebg()
+        },3000)
+        
+        const changebg=()=>{
+            document.getElementById("box").style.backgroundColor="Transparent"
+        }
+        const vegetables = ["Potato", "Mirch", "Brinjal", "Apple", "Mango"]
+
+        vegetables.push("Peanuts")
+        vegetables.push("Califlower")
+        
+        // for(let i = 1; i < 3; i++){
+        //     vegetables.pop()
+        // }
+
+        console.log("This is normal vegetables", vegetables)
+        const vege = vegetables.sort()
+        console.log("This is sorted vegetables", vege)
+
+        const reverse = vegetables.reverse()
+        console.log("This is reversed vegetables", reverse)
+
+        for(let k in vegetables){
+            console.log(`These are different vegetables ${vegetables[k]}`)
+        }
+
+        const num = [0,40,30,3,44,9,43]
+        console.log(num.sort())
+        //ascending order
+        console.log(num.sort((a,b)=>a-b))
+        // descending order 
+        console.log(num.sort((a,b)=>b-a))
+
+        //mapping 
+        num.map((x)=> {
+            console.log(`I am a number ${num[x]}`)
+        })
+
+        //for each
+        num.forEach((x)=> {
+            console.log(`I am a number ${num[x]}`)
+        })
+
+        //filter 
+        const voters = num.filter((num)=>num>60)
+        console.log(voters)
+
+
+        const retired = num.filter((num)=>num>60)
+        console.log(retired)
+
+        const students = ["Kaif", "Aditya", "Phantum", "Echo", "Naruto", "Draccon"]
+        const slicedArrys = students.slice(2,5)
+        console.log(slicedArrys)
+
+        //Splice in Array
+        const splicedArry = students.splice(2,2, "Jiraya", "Uzumaki")
+        console.log(students)
+
+        //includes
+        const check = students.includes("Antaryami")
+        console.log(check)
+
+        //Negative index
+        const negative = students.at(-2)
+        console.log(negative)
+
+        function myfunction() {
+            let  k = "kaif"
+            window.alert("Myself"+" "+k)
+        }
+        myfunction()
+
+
+
+
+       
+
+    </script>
+</body>
+</html>
